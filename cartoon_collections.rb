@@ -12,7 +12,7 @@ def long_planeteer_calls(planeteers)
 +    planeteers.length > 4
 end
 
-def find_the_cheese# code an argument here
+def find_the_cheese
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_types.each do |cheese|
 +    if words.include?(cheese)
